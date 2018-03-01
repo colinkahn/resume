@@ -1,0 +1,16 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run markdown-pdf -- ./colin-kahn-resume.md --css-path ./style.css",
+    "markdown-pdf": "markdown-pdf"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-pdf": "^8.0.0"
+  }
+}

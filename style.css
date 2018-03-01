@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+   font: 12px Helvetica;
+   color: black;
+   line-height: 1.25rem;
+   padding: 0.7rem;
+}
+
+/* =====================================
+   #VERTICAL RHYTHM
+   ===================================== */
+
+p,
+h1,h2,h3,h4,h5,h6,
+hr,
+ol, ul {
+  margin-top: .5rem;
+}
+
+h3 + h4 {
+  margin-top: -0.75em;
+}
+
+ul, ol { 
+  margin: 1rem 0 1rem 0;
+  padding-left: 1rem;
+}
+
+ul li,
+ol li {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-top:0;
+  margin-bottom:0;
+  padding-left: 1rem;
+}
+
+/* =====================================
+   #LINE HEIGHT
+   ===================================== */
+
+p, ol, ul {
+   line-height: 1.24rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.1rem;
+}
+
+/* =====================================
+   #STYLES
+   ===================================== */
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 170%;
+  padding-top: .5rem;
+}
+
+h2 {
+  font-size: 150%;
+  border-top: 4px solid #e0e0e0;
+  padding-top: 1rem;
+}
+
+h3 {
+  border-top: 1px solid #e0e0e0;
+  padding-top: .5rem;
+}
+
+hr {
+  border: 1px solid #ddd;
+}
+
+/* =====================================
+   #LAYOUT
+   ===================================== */
+
+body {
+  padding-top: 0.15rem;
+}
+
+h1 {
+  padding-top: 0;
+  margin-top: 0;
+}
