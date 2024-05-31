@@ -9,21 +9,22 @@
 #### Senior Backend Software Developer
 
 Mobot gives customers confidence in their mobile software releases by testing
-on real devices using robots. I work on their Clojure backend and ClojureScript
-frontend used by QA operators to run tests as well as display reports to
-customers.
+on real devices using robots. I worked on their Clojure backend and
+ClojureScript frontend used by QA operators to run tests as well as display
+reports to customers.
 
-Responsibilities include:
+Responsibilities included:
 
+- Full stack development on their web platform, which is used by operators to
+  run test plans and by customers to view reports
+    - Technologies used: Clojure(Script), Postgres
+- Worked on the Mobot Live platform, similar to BrowserStack but for remotely
+  testing physical phones using a robot
+- Utilized OpenAI to rewrite operator comments for customer reports
+- Added Jira ticketing integration and comment publishing
 - Extended OAuth2 login implementation to support Microsoft accounts
 - Developed a back-testing framework to exercise image assessment changes
     - Technologies used: Clojure, Python, Docker, Google Cloud Run
-- Customer facing charting for test run reports
-    - Technologies used: ClojureScript, Reagent, Re-Frame, Oz (vega)
-- Proof of concept for updating and viewing changes to their test plans
-    - Backwards compatible implementation
-    - Generative testing creating successive versions, checking their validity
-    - Technologies used: Clojure, Reitit, Ring, Postgres, HugSQL, clojure.test.check
 
 ### Parkside Securities - May 2019 to April 2022
 
@@ -31,11 +32,11 @@ Responsibilities include:
 
 Parkside Securities was developing a scalable financial platform for trading,
 written in Clojure using Kafka and Datomic. When I first joined, I worked
-mainly on their internal broker dealer operations frontend application doing
+mainly on their internal broker-dealer operations frontend application doing
 both development and design. I soon shifted into a full stack role, doing
-development on their backend microservices as well. During that time I began an
-initiative to write stateful model-based property based tests (PBTs) for the
-most critical components of the system. Eventually a specific team was broken
+development on their backend microservices as well. During that time, I began
+an initiative to write stateful model-based property-based tests (PBTs) for the
+most critical components of the system. Eventually, a specific team was broken
 out for test automation, which I led.
 
 
@@ -43,7 +44,7 @@ Responsibilities included:
 
 - Developed product features for backend microservices
     - Technologies used: Clojure, Kafka, Datomic, GraphQL, QuickFIXJ
-- Developed and designed the internal broker dealer operations frontend application
+- Developed and designed the internal broker-dealer operations frontend application
     - Technologies used: ClojureScript, re-frame, Storybook, Ant design system
     - Worked with product to create mocks in Storybook for fast iteration with stakeholders
     - Utilized feature flags for short cycle time
@@ -69,7 +70,9 @@ Responsibilities included:
 - Angular 7 application development
     - Used NgRx Store for state management
     - Practiced TDD for unit testing, achieving high code coverage
+    - Developed reusable components
     - Used Storybook for component development and fast iteration with designers
+
 
 ### Disney Studio Technologies - April 2016 to January 2018
 
@@ -106,7 +109,7 @@ frontend code to the new backend.
 
 Responsibilities included:
 
-- Helped the team acheive frontend best practices for new projects
+- Helped the team achieve frontend best practices for new projects
     - Shifted the team from using Backbone to AngularJS
         - Advocated for componentization to improve efficiency and reuse of frontend code
     - Developed and helped maintain a CSS style guide for use across several teams and projects
