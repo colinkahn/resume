@@ -20,7 +20,7 @@ info@colinkahn.com - (626) 590 2323 - [GitHub](https://github.com/colinkahn)
 - Full-stack development and automated testing of the financial trading platform.
 - Technologies: Clojure(Script), Storybook, Datomic, GraphQL, QuickFIXJ, Kafka, Kubernetes.
 - Key Contributions:
-  - Refactored the frontend application for the broker-dealer team, reducing boilerplate for feature development, and later providing designs and oversight when transferred to another team.
+  - Refactored the frontend application for the broker-dealer team, reducing boilerplate for feature development, resulting in faster development, and improved code maintainability.
   - Conducted remote pair programming on feature development, improving code quality and promoting knowledge sharing.
   - Led the test automation team, focusing on integration testing, reducing CI times, and implementing stateful property-based tests to generate sequences of operations that revealed bugs.
 

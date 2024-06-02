@@ -60,7 +60,7 @@ h3 + h6 {
 }
 
 hr + h3 {
-    margin-top: 12px;
+    margin-top: 13px;
 }
 
 ul + h3 {
@@ -127,7 +127,7 @@ strong {
 hr {
     border: 0;
     border-top: 3px solid #333333; 
-    margin: 12px 0;
+    margin: 13px 0;
 }
 
 /* Icons */
