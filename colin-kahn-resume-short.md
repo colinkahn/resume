@@ -28,7 +28,7 @@ info@colinkahn.com - (626) 590 2323 - [GitHub](https://github.com/colinkahn)
 ###### December 2018 - May 2019
 
 - Frontend development of the protective services department's data monitoring application.
-- Technologies: Angular, TypeScript, RXJs, NgRx Store, Storybook, Highcharts.
+- Technologies: Angular, TypeScript, RxJS, NgRx Store, Storybook, Highcharts.
 - Key Contributions:
   - Led frontend refactoring to introduce NgRx Store, clarifying the sources of state changes.
   - Mentored junior developers, emphasizing testing and writing more understandable code.
